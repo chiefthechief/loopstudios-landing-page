@@ -207,10 +207,24 @@ footer .socials ul li a i{
    header .main-header h1 span{
       margin-bottom: .2em;
    }
+   main img.half{
+      width: 55%;
+   }
+   main section.half{
+      margin-left: 35%;
+      z-index: 1;
+      background: hsl(0, 0%, 100%);
+      padding-bottom: 5em;
+      padding-inline: 5em;
+      padding-top: 2em;
+      position: relative;
+      top: -10em;
+   }
    main div.links{
       display: flex;
       align-items: center;
       justify-content: space-between;
+      margin-top: -12em;
    }
    main div.links a{
       display: initial;
@@ -258,18 +272,6 @@ footer .socials ul li a i{
       font-size: 3.5rem;
       padding-right: 2em;
    }
-   main img.half,
-   main section.half{
-      width: 55%;
-   }
-   main img.half{
-      margin-bottom: -10em;
-   }
-   main section.half{
-      margin-left: 35%;
-      z-index: 1;
-      background: hsl(0, 0%, 100%);
-   }
    main div.links{
       margin-bottom: .7em;
    }
@@ -279,11 +281,11 @@ footer .socials ul li a i{
    }
    main section.creations{
       display: grid;
-      grid-template-columns: 1fr 1fr 1fr 1fr;
+      grid-template-columns: 1fr 1fr 1fr;
    }
    main section.creations section.mini{
-      width: 200px;
-      height: 280px;
+      width: 10.5em;
+      height: 15em;
    }
    main section.creations section.mini p{
       position: relative;
@@ -311,3 +313,9 @@ footer .socials ul li a i{
       transform: scale(1.5);
    }
 }
+@media all and (min-width: 1200px){
+   main section.creations{
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr 1fr;
+   }
+} 
