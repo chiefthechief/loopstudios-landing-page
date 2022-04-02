@@ -239,13 +239,13 @@ footer .socials ul li a i{
       margin: auto;
    }
    main section.creations section.mini{
-      width: 300px;
+      width: 100%;
       height: 400px;
       overflow: hidden;
    }
    main section.creations section.mini p{
       position: relative;
-      top: -6em;
+      top: -12em;
       font-weight: 500;
       font-size: 1.2rem;
    }
@@ -282,10 +282,12 @@ footer .socials ul li a i{
    main section.creations{
       display: grid;
       grid-template-columns: 1fr 1fr 1fr;
+      gap: 1.5%;
+      overflow: hidden;
    }
    main section.creations section.mini{
-      width: 10.5em;
-      height: 15em;
+      width: 100%;
+      height: 20em;
    }
    main section.creations section.mini p{
       position: relative;
