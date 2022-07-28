@@ -32,7 +32,7 @@ a{
    color: initial;
 }
 body.modal{
-   overflow: none;
+   overflow: hidden;
 }
 header{
    background: url('./images/mobile/image-hero.jpg') no-repeat no-repeat;
