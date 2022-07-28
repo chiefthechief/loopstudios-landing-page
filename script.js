@@ -10,11 +10,14 @@ let image9 = document.querySelector('main img:first-child');
 let menu = document.querySelector('header .top-header i:nth-child(3)');
 let close = document.querySelector('header .top-header i');
 let navigation = document.querySelector('header .top-header nav');
+let body = document.querySelector('body');
 menu.addEventListener('click', () => {
    navigation.classList.add('show');
+   body.classList.add('modal');
 })
 close.addEventListener('click', () => {
    navigation.classList.remove('show');
+   body.classList.remove('modal');
 })
 if (window.innerWidth > 699){
    image1.setAttribute('src', './images/desktop/image-deep-earth.jpg');
