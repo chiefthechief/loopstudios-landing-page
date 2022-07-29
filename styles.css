@@ -158,16 +158,6 @@ footer .socials ul{
 footer .socials ul li a i{
    color: hsl(0, 0%, 100%);
 }
-#details,
-#details a{
-   background: hsl(0, 0%, 0%);
-   color: hsl(0, 0%, 100%);
-   text-align: center;
-   font-size: .9rem;
-}
-#details a{
-   text-decoration: underline;
-}
 @media all and (min-width: 700px){
    header,
    main, 
@@ -187,6 +177,7 @@ footer .socials ul li a i{
    }
    header .top-header nav{
       display: initial;
+      position: initial;
    }
    header .top-header nav ul{
       display: flex;
